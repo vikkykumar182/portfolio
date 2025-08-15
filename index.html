@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Science Portfolio | Jane Doe</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">vikky kumar</a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <!-- Move theme toggle here -->
+            <div class="theme-toggle" id="theme-toggle">
+                <i class="fas fa-moon"></i>
+                <i class="fas fa-sun" style="display:none;"></i>
+            </div>
+            <div class="hamburger">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="particles" id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Transforming <span class="highlight">Data</span> into <span class="highlight">Insights</span></h1>
+                <p class="hero-subtitle">Hi, I'm Jane Doe. Data Scientist passionate about machine learning and visualization.</p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">View Projects</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="floating-img">
+                    <img src="tech.jpg" alt="Data Science Illustration">
+                    <div class="floating-elements">
+                        <span class="float-element el-1"><i class="fas fa-chart-line"></i></span>
+                        <span class="float-element el-2"><i class="fas fa-database"></i></span>
+                        <span class="float-element el-3"><i class="fas fa-brain"></i></span>
+                        <span class="float-element el-4"><i class="fas fa-project-diagram"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About <span class="highlight">Me</span></h2>
+            <div class="about-content">
+                <div class="about-image">
+                    <div class="profile-img">
+                        <img src="logo.jpg" alt="Jane Doe">
+                    </div>
+                </div>
+                <div class="about-text">
+                    <p>I'm a Data Science graduate with a passion for extracting meaningful insights from complex datasets. My journey in data began during my undergraduate studies in Computer Science, where I discovered the power of data-driven decision making.</p>
+                    <p>Currently pursuing my Master's in Data Science at XYZ University, I specialize in machine learning, natural language processing, and data visualization.</p>
+                    <div class="about-buttons">
+                        <a href="#" class="btn btn-primary">Download CV</a>
+                        <a href="#contact" class="btn btn-secondary">Let's Talk</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Education Section -->
+            <div class="education-section">
+                <h3 class="subsection-title">Education</h3>
+                <div class="education-grid">
+                    <div class="education-card">
+                        <div class="edu-date">2021 - Present</div>
+                        <div class="edu-content">
+                            <h4>MS in Data Science</h4>
+                            <p class="institution">XYZ University</p>
+                            <ul class="edu-details">
+                                <li>Specializing in Machine Learning and Big Data Analytics</li>
+                                <li>GPA: 3.9/4.0</li>
+                                <li>Coursework: Advanced ML, Deep Learning, Data Mining</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="education-card">
+                        <div class="edu-date">2017 - 2021</div>
+                        <div class="edu-content">
+                            <h4>BS in Computer Science</h4>
+                            <p class="institution">ABC University</p>
+                            <ul class="edu-details">
+                                <li>Minor in Statistics</li>
+                                <li>GPA: 3.8/4.0</li>
+                                <li>Coursework: Algorithms, Data Structures, Probability</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Experience Section -->
+            <div class="experience-section">
+                <h3 class="subsection-title">Experience</h3>
+                <div class="experience-grid">
+                    <div class="experience-card">
+                        <div class="exp-date">Summer 2020</div>
+                        <div class="exp-content">
+                            <h4>Data Science Intern</h4>
+                            <p class="company">TechCorp Solutions</p>
+                            <ul class="exp-details">
+                                <li>Developed predictive models for customer churn analysis with 85% accuracy</li>
+                                <li>Created automated data pipelines reducing processing time by 40%</li>
+                                <li>Designed interactive dashboards for business stakeholders</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-card">
+                        <div class="exp-date">2019 - 2020</div>
+                        <div class="exp-content">
+                            <h4>Research Assistant</h4>
+                            <p class="company">ABC University Data Lab</p>
+                            <ul class="exp-details">
+                                <li>Assisted in NLP research on sentiment analysis</li>
+                                <li>Cleaned and preprocessed large text datasets</li>
+                                <li>Co-authored paper published in Data Science Journal</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+            <div class="skills-container">
+                <div class="skill-category">
+                    <h3>Programming</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Python</span>
+                            <span>95%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress python"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>R</span>
+                            <span>85%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress r"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>SQL</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress sql"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Data Science</h3>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Machine Learning</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress ml"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Data Visualization</span>
+                            <span>88%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress dv"></div>
+                        </div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-info">
+                            <span>Big Data</span>
+                            <span>75%</span>
+                        </div>
+                        <div class="skill-bar">
+                            <div class="skill-progress bd"></div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="skill-category">
+                    <h3>Tools & Frameworks</h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Pandas</span>
+                        <span class="skill-tag">NumPy</span>
+                        <span class="skill-tag">Scikit-learn</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Matplotlib</span>
+                        <span class="skill-tag">Seaborn</span>
+                        <span class="skill-tag">Plotly</span>
+                        <span class="skill-tag">Tableau</span>
+                        <span class="skill-tag">Hadoop</span>
+                        <span class="skill-tag">Spark</span>
+                        <span class="skill-tag">Git</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="ml">Machine Learning</button>
+                <button class="filter-btn" data-filter="viz">Visualization</button>
+                <button class="filter-btn" data-filter="nlp">NLP</button>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card" data-category="ml">
+                    <div class="project-img">
+                        <img src="assets/projects/stock-prediction.jpg" alt="Stock Price Prediction">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Stock Price Prediction</h3>
+                        <p>LSTM neural network to predict stock prices with 85% accuracy using historical data.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>TensorFlow</span>
+                            <span>LSTM</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card" data-category="viz">
+                    <div class="project-img">
+                        <img src="assets/projects/covid-dashboard.jpg" alt="COVID-19 Dashboard">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>COVID-19 Interactive Dashboard</h3>
+                        <p>Interactive visualization of COVID-19 spread using Plotly and Dash with real-time data.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Plotly</span>
+                            <span>Dash</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 3 -->
+                <div class="project-card" data-category="nlp">
+                    <div class="project-img">
+                        <img src="assets/projects/sentiment-analysis.jpg" alt="Sentiment Analysis">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Twitter Sentiment Analysis</h3>
+                        <p>Real-time sentiment analysis of tweets using BERT model and Twitter API.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>BERT</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 4 -->
+                <div class="project-card" data-category="ml">
+                    <div class="project-img">
+                        <img src="assets/projects/customer-segmentation.jpg" alt="Customer Segmentation">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Customer Segmentation</h3>
+                        <p>K-means clustering to segment retail customers based on purchasing behavior.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Scikit-learn</span>
+                            <span>Clustering</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 5 -->
+                <div class="project-card" data-category="viz">
+                    <div class="project-img">
+                        <img src="assets/projects/air-quality.jpg" alt="Air Quality Analysis">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Air Quality Analysis</h3>
+                        <p>Geospatial visualization of air quality data across major cities using Folium.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>Folium</span>
+                            <span>Geopandas</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Project 6 -->
+                <div class="project-card" data-category="nlp">
+                    <div class="project-img">
+                        <img src="assets/projects/fake-news.jpg" alt="Fake News Detection">
+                        <div class="project-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Fake News Detection</h3>
+                        <p>Classifier to detect fake news articles using TF-IDF and logistic regression.</p>
+                        <div class="project-tags">
+                            <span>Python</span>
+                            <span>NLP</span>
+                            <span>Scikit-learn</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Let's talk about data!</h3>
+                    <p>I'm currently looking for internship opportunities in data science and machine learning. Feel free to reach out for collaborations or just to say hello!</p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>jane.doe@example.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>+1 (123) 456-7890</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>San Francisco, CA</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-github"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-kaggle"></i></a>
+                        <a href="#"><i class="fab fa-medium"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form id="form">
+                        <div class="form-group">
+                            <input type="text" id="name" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" id="email" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" id="subject" placeholder="Subject">
+                        </div>
+                        <div class="form-group">
+                            <textarea id="message" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#">Jane Doe</a>
+                    <p>Data Scientist | Machine Learning Engineer</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Tutorials</a></li>
+                        <li><a href="#">GitHub</a></li>
+                        <li><a href="#">Kaggle</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Jane Doe. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
